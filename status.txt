@@ -1,0 +1,71 @@
+COS126 Final Project: Status Update
+
+*Please complete the following questions and upload this file to TigerFile.*
+
+Do not alter the format of the questions, replace the ** Write here ** with your answers.
+
+  Basic Information
+
+Name 1: Kevin Le
+NetID 1: kl3059
+
+Name 2 Alice Hou
+NetID 2 ah5087
+
+Project advisor: Charlie Smith
+Project title: The Life of a Rat
+
+
+  Required Questions
+
+A. Summarize your proposed three features (your features might have
+changed slightly after the proposal, so this is so your advisor knows
+the current status of your plans):
+
+Feature 1.
+Our first feature registers player's choices through their mouse inputs. In doing so, each button clicked implies a different action and results
+in a different game outcome.
+
+Feature 2.
+Our second feature utilizes Princeton's Standard Draw library to create the different backgrounds/settings of the game, the buttons that prompt
+the players' next actions, and the corresponding text.
+
+Feature 3.
+Our third feature keeps track of the player's progress throughout the game - as the objective is to find all of the necessary ingredients to
+make a cake, it will keep track of which ones have been found. The game will also keep track of the happiness and hunger levels of the rat throughout
+the game to make sure if any of the elements are too low, the game will end. This will also be updated in response to the players' actions and choices
+made throughout the game.
+
+B. Summarize what you have implemented for each feature:
+
+Feature 1.
+For the first feature, we have implemented code that registers whether or not the mouse has been clicked, and corresponding actions that
+should occur as a result. Upon clicking a button, the game screen will transform to the next scene (i.e. the game will start upon signing the
+contract and reading the instructions).
+
+Feature 2.
+For the second feature, we have uploaded our images to the file and used the Standard Draw library to display them on the screen when the
+player runs the game. This includes the starting screen, instructions, backgrounds/settings, and the mouse itself.
+
+Feature 3.
+For the third feature, we have uploaded images to visually represent the players' happiness and hunger levels.
+
+Other Code (optional, in case you have extra code).
+** Write here **
+
+
+C. Estimate what you have left to implement for each feature:
+
+Feature 1.
+For the first feature, we still have to encode all of the different decisions available to the players and the corresponding results that
+occur after choosing each option.
+
+Feature 2.
+For the second feature, we still have to finalize all of the different settings of the game and upload the images.
+
+Feature 3.
+For the third feature, we still have to create methods to keep track of the rat's happiness and hunger levels, update them corresponding to
+the actions taken by the player, and keep track of the player's progress throughout the game.
+
+Other Code (optional, in case you have extra code).
+** Write here **
