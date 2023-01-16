@@ -1,3 +1,6 @@
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 /* This file runs the entirety of the game, where it creates objects from the
 implementation and audio implementation class. Additionally, it takes user
 input, which will be the name of the rat. This code runs the game and audio

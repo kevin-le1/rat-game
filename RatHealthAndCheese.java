@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.StdOut;
+
 public class RatHealthAndCheese {
 
     // public allows for these two variables to be mutable throughout different
@@ -22,6 +24,7 @@ public class RatHealthAndCheese {
     // increases cheese by 1
     public void incrementCheese() {
         cheese = cheese + 1;
+    
     }
 
     // gets the current health

@@ -9,6 +9,10 @@ background, and ending screens. */
 import java.awt.Color;
 import java.awt.Font;
 
+import edu.princeton.cs.algs4.StdDraw;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 public class Implementation {
 
     // two instance variables, fonts to not make it repetitively stated
@@ -22,6 +26,7 @@ public class Implementation {
 
     // constructor for the health and cheese, to keep check of each instance
     public Implementation() {
+    
         update.health = 5;
         update.cheese = 5;
     }
